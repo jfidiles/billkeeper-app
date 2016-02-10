@@ -1,0 +1,38 @@
+
+        /*
+        SubActionButton.Builder itemBuilder = new SubActionButton.Builder(getActivity());
+
+        ImageView icBill = new ImageView(getActivity());
+        icBill.setImageResource(R.drawable.bill24);
+        ImageView icIncome = new ImageView(getActivity());
+        icIncome.setImageResource(R.drawable.receivecash24);
+
+        SubActionButton btnAddBill = itemBuilder.setContentView(icBill).build();
+        SubActionButton btnAddIncome = itemBuilder.setContentView(icIncome).build();
+
+        final FloatingActionMenu actionMenu = new FloatingActionMenu.Builder(getActivity())
+                .addSubActionView(btnAddBill)
+                .addSubActionView(btnAddIncome)
+                .attachTo(fab)
+                .build();
+
+        btnAddBill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "BILL", Toast.LENGTH_SHORT).show();
+                fab.performClick();
+               Intent intent = new Intent("com.example.jimmy.navigationdrawer.Activity.add.manage_bill");
+                startActivity(intent);
+            }
+        });
+
+        btnAddIncome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getActivity(), "Income", Toast.LENGTH_SHORT).show();
+            }
+
+
+
+        });
+        */
