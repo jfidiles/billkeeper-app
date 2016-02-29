@@ -12,9 +12,6 @@ import org.json.JSONObject;
 
 import java.text.DecimalFormat;
 
-/**
- * Created by Jimmy on 1/11/2016.
- */
 public class Utilities {
 
     public static String jsonToString(JSONObject json, String name) {
@@ -28,7 +25,7 @@ public class Utilities {
     }
 
     public static String setMonth(String dbMonth) {
-        String month="";
+        String month = "";
         switch (dbMonth){
             case "01":
                 month = "Jan";
@@ -79,13 +76,14 @@ public class Utilities {
     }
 
     public static String setDayAsTwoNumbers(String postDate) {
-        String date[] = postDate.split("-");
+        String date[] = postDate.split(AppConfig.DATE_SEPARATOR);
         for (int i = 0; i < date.length; i++) {
             if (date[i].length() == 1)
                 date[i] = "0" + date[i];
         }
-        postDate = date[0] + "-" + date [1] + "-" + date[2];
-        Log.d("date = ", date[0] + "-" + date[1] + "-" + date[2]);
+        postDate = date[0] + AppConfig.DATE_SEPARATOR + date [1] +
+                AppConfig.DATE_SEPARATOR + date[2];
+
         return postDate;
     }
 
@@ -101,12 +99,8 @@ public class Utilities {
     }
 
     public static double getTwoDecimal (Double number) {
-        DecimalFormat twoDForm = new DecimalFormat("#.##");
+        DecimalFormat twoDForm = new DecimalFormat(AppConfig.TWO_DECIMAL_FORMAT);
         Double temp = Double.valueOf(twoDForm.format(number));
         return temp;
-    }
-
-    public static void reportNetworkStatus(Context context) {
-        Toast.makeText(context, "Network error!", Toast.LENGTH_SHORT).show();
     }
 }

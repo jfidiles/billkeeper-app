@@ -8,11 +8,8 @@ import java.text.SimpleDateFormat;
 import java.util.Comparator;
 import java.util.Date;
 
-/**
- * Created by Jimmy on 11/19/2015.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Income implements Comparator<Income> {
+public class Income {
     public String source, amount, incomeId, date, userId;
 
     public Income() {};
@@ -41,19 +38,5 @@ public class Income implements Comparator<Income> {
 
     public String getUserId() {
         return userId;
-    }
-
-    @Override
-    public int compare(Income lhs, Income rhs) {
-        DateFormat df = new SimpleDateFormat("dd-mm-yyyy");
-        Date dateCompared = null;
-        Date dateToCompare = null;
-        try {
-            dateCompared = df.parse(lhs.getDate());
-            dateToCompare = df.parse(rhs.getDate());
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return dateCompared.compareTo(dateToCompare);
     }
 }

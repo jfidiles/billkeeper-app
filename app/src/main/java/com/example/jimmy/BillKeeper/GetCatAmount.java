@@ -2,9 +2,6 @@ package com.example.jimmy.BillKeeper;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-/**
- * Created by Jimmy on 11/28/2015.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GetCatAmount {
     String category;

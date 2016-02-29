@@ -113,4 +113,5 @@ public class AppConfig {
     public static final String YESTERDAY = "yesterday";
     public static final String HAD_TO_PAY_YESTERDAY = HAD_TO_PAY + YESTERDAY;
     public static final String DAYS_AGO = " days ago";
+    public static final String TWO_DECIMAL_FORMAT = "#.##";
 }

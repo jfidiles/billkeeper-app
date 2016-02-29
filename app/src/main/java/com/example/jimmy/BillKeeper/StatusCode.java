@@ -2,9 +2,6 @@ package com.example.jimmy.BillKeeper;
 
 import org.springframework.http.HttpStatus;
 
-/**
- * Created by Jimmy on 1/27/2016.
- */
 public class StatusCode {
 
     public static boolean isOk(HttpStatus code) {

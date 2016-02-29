@@ -2,9 +2,6 @@ package com.example.jimmy.BillKeeper;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-/**
- * Created by Jimmy on 11/28/2015.
- */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Budget {
     String category, date;
@@ -18,6 +15,7 @@ public class Budget {
         this.wishAmount = wishAmount;
         this.date = date;
     }
+
     public String getCategory() {
         return category;
     }
