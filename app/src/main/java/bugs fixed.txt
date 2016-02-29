@@ -1,4 +1,0 @@
-I/O Exception accessing port 9000 was fixed by changing URL.
-Make sure I have "/" when I need something after it: - an id or something else;
-
-Make sure you set the context when you use APIConnection.
