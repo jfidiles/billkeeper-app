@@ -10,9 +10,6 @@ import org.springframework.web.client.RestTemplate;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-/**
- * Created by Jimmy on 2/5/2016.
- */
 public class Rest {
     private static Rest _instance = null;
     public String error;
