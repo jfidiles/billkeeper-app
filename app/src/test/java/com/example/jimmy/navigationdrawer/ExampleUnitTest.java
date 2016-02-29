@@ -1,4 +1,4 @@
-package com.example.jimmy.navigationdrawer;
+package com.example.jimmy.BillKeeper;
 
 import org.junit.Test;
 
