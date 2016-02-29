@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Bills">
+           <menu>
+                <item android:id="@+id/nav_paid" android:icon="@drawable/paid24"
+                    android:title="@string/paid" />
+                <item android:id="@+id/nav_payable" android:icon="@drawable/payable24"
+                    android:title="@string/payable"/>
+                <item android:id="@+id/nav_overdue" android:icon="@drawable/overdue24"
+                    android:title="@string/overdue"/>
+           </menu>
+        </item>
+
+        <item android:title="Extra">
+            <menu>
+                <item android:id="@+id/nav_income" android:icon="@drawable/receivecash24"
+                    android:title="@string/income"/>
+                <item android:id="@+id/nav_budget" android:icon="@drawable/safe24"
+                    android:title="@string/budget" />
+                <item android:id="@+id/nav_sumarry" android:icon="@drawable/summary24"
+                    android:title="@string/summary" />
+                <item android:id="@+id/nav_export" android:icon="@drawable/pdf24"
+                    android:title="@string/export" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/share24"
+                android:title="@string/share" />
+            <item android:id="@+id/nav_new" android:icon="@drawable/new24"
+                android:title="@string/whatisnew" />
+        </menu>
+    </item>
+
+</menu>

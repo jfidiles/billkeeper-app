@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Do you want to share this application with your friends?"
+        android:id="@+id/textView33"
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/btnShare" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="Yes I do!"
+        android:id="@+id/btnShare"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/flat_selector"
+        android:textColor="#ffffff" />
+</RelativeLayout>
