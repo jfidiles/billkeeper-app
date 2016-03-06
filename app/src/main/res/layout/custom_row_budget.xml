@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Id_Budget"
-                    android:id="@+id/tvBudgetId_budget"
+                    android:id="@+id/tvBudgetId"
                     android:visibility="gone" />
             </LinearLayout>
         </LinearLayout>

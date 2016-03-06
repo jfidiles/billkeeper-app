@@ -1,4 +1,4 @@
-package com.example.jimmy.BillKeeper;
+package com.work.jfidiles.BillKeeper;
 
 import org.junit.Test;
 

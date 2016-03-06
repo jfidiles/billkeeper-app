@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jimmy.BillKeeper">
+    package="com.work.jfidiles.BillKeeper">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.access_network_state" />
@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.LoginActivity"
+            android:name="com.work.jfidiles.BillKeeper.Activity.LoginActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_login">
             <intent-filter>
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.MainActivity"
+            android:name="com.work.jfidiles.BillKeeper.Activity.MainActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.manage.manage_bill"
+            android:name="com.work.jfidiles.BillKeeper.Activity.manage.manage_bill"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_add_bill"
             android:theme="@style/AppTheme.NoActionBar">
@@ -50,10 +50,10 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.example.jimmy.BillKeeper.Notification.Notify" />
+        <service android:name="com.work.jfidiles.BillKeeper.Notification.Notify" />
 
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.manage.manage_income"
+            android:name="com.work.jfidiles.BillKeeper.Activity.manage.manage_income"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_add_income"
             android:theme="@style/AppTheme.NoActionBar">
@@ -64,7 +64,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.manage.manage_budget"
+            android:name="com.work.jfidiles.BillKeeper.Activity.manage.manage_budget"
             android:label="@string/title_activity_add_budget"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -74,7 +74,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.jimmy.BillKeeper.Activity.SignUp"
+            android:name="com.work.jfidiles.BillKeeper.Activity.SignUp"
             android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_signUp">
             <intent-filter>
